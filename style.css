@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+body {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    width:1440px;
+}
+
+.top_logo {
+    display: block;
+    margin:auto;
+}
+.main_title {
+    text-align: center;
+    font-size:2rem;
+    color:hsl(210, 10%, 33%);
+}
+.title2 {
+    text-align: center;
+    color:hsl(210, 10%, 33%);
+    font-size:1.5rem;
+}
+.title_3 {
+    font-size:1.25rem;
+    color:hsl(210, 10%, 33%);
+    text-align: center;
+}
+.info {
+    text-align: center;
+    font-size:1.25rem;
+    color:hsl(201, 11%, 66%);
+}
+.button_box {
+    text-align: center;
+}
+.green {
+    background-color: #26BAA5;
+    padding:15px 30px;
+    border-radius:30px;
+}
+.blue {
+   background: #5564E8;
+   padding:15px 30px;
+   border-radius:30px;
+}
+.green, a {
+    text-decoration: none;
+    color:white;
+}
+.computer_box {
+    display:flex;
+    flex-direction: row;
+}
+.image_box {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_box {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.bottom_box {
+    display:flex;
+    flex-direction: row;
+}
+.box1, img {
+    text-align: center;
+}
+
